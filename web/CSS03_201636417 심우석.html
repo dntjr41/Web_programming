@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Sim wooseok">
+	<title>DIV_201636417 심우석</title>
+	<style>
+		#page {	/* div page - set entire area */
+			border-style:solid; /* Entire border area */
+			background-color:lightcyan /* Entire area color */
+			}
+	
+		#top { /* div top - set top area */
+			color:blue; /* top's font color */
+			font-family:fantasy; /* top's font style */
+			font-weight:bold; /* top's font weight */
+			}
+		
+		#middle { /* div middle - set middle area */
+			border-top-style:dashed; /* show a border at the top in the middle */
+ 			display:flex; /* Defines flex container of block property */
+			background-color:lightgreen; /* middle's area color */
+			}
+		
+		.box {	/* div box - set box area (in the leftnav) */
+				display:inline-block; /* Defines inline block */
+				border-style:dotted; /* show a border at the box */
+				margin:30px; /* box's margin */
+				padding:10px; /* box's padding */
+				background-color : yellow; /* box's area color */
+				color:red; /* box's font color */
+				font-family:serif; /* box's font style */
+				text-align:left; /* Middle alignment */
+				}
+		
+		#leftnav { /* div leftnav - set middle to left area */
+			border-right-style:dotted; /* show a border at the right in the leftnav */
+			background-color:mistyrose; /* leftnav's area color */
+			}
+			
+		#content { /* div content - set middle to right area */
+			color:magenta; /* content's font color */
+			font-family:cursive; /* content's font style */
+			}
+			
+		#footer { /* div footer - set bottom area */
+			border-top-style:dashed; /* show a border at the top in the bottom */
+			font-style:italic; /* bottom's font style */
+			text-align:right; /* Right alignment */
+			color:darkred; /* bottom's font color */
+			padding:10px; /* bottom's padding */
+			}
+
+	</style>
+</head>
+<body>
+	<div id="page">
+		<div id="top">
+			<h1>&nbsp;<img src="jjang.png" alt="JJang gu" width="60" height="60">&nbsp;JJang Gu Family !!</h1>
+		</div>
+		
+		<div id="middle">
+			<div id="leftnav">
+				<div class="box">JJang gu<br>
+				Mom<br>
+				Dad<br>
+				Sister<br>
+				Dog<br>
+				</div>
+			</div>
+			<div id="content">
+				<h3>&nbsp;About JJang gu</h3>
+				<ul>
+					<li><a href="https://ko.wikipedia.org/wiki/%EC%A7%B1%EA%B5%AC%EB%8A%94_%EB%AA%BB%EB%A7%90%EB%A0%A4" target="_blank">WIKI - JJang gu</a>
+					</li>
+				</ul>
+				<h3>&nbsp;JJang gu's Legend Episode</h3>
+				<ul>
+					<li><a href="https://www.youtube.com/watch?v=c2Z8FU4fsA0" target="_blank">JJang gu's house explosion</a>
+					</li>
+					<li><a href="https://www.youtube.com/watch?v=CIJwLMcWj7Q" target="_blank">JJang gu theatrical version</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<p>Last modified on Tuesday, 31-Mar-2021 17:30:00 KST<br>
+			Maintained by <a href="https://github.com/dntjr41" target="_blank">Woo Seok</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
