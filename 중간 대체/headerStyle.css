@@ -1,0 +1,77 @@
+/* External */
+
+/* Google Web font https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+body { /* Set default values for entire body */
+	background-color:#E4F7BA; /* Set Background Color */
+	font-family:'Stylish', sans-serif; /* Set Letter Style */
+	font-size:1.2em; /* Set Letter Size */
+}
+
+h3 { /* Set default values for all h3 */
+	color:#050099; /* Set Letter Color */
+	text-shadow:1px 1px; /* Set Letter's shadow */
+	font-size:1.5em; /* Set Letter Size */
+	font-family:'RocknRoll One', sans-serif; /* Set Letter Style */
+}
+
+header { /* Semantic header - Set default values for all header */
+	background-color:#D5FF80; /* Set Background Color */
+}
+
+#intro { /* Set default values for all #intro */
+	color:#050099; /* Set Letter Color */
+	font-family: 'Original Surfer', cursive; /* Set Letter Style */
+}
+
+header #navi, ul, li { /* Set the value of #navi in the header */
+	margin-left:20px; /* Set Right Margin */
+	list-style:none; /* Delete points in the list */
+	display:inline; /* Set List Horizontal */
+	font-family:Georgia; /* Set Letter Style */
+}	
+
+header li { /* Set list value in header */
+	display:inline-block; /* Set List Horizontal (It has the properties of a block)*/
+	font-weight:bold; /* Set letters to bold */
+}
+
+a { /* Set default values for all links */
+	text-decoration:none; /* Delete the underscore of the letters */
+	color:#646464; /* Set Letter Color */
+}
+
+table, th{ /* Set table and row values */
+	margin:0px 10px 10px 10px; /* Set table margin value */
+	padding:15px; /* Set table padding value */
+	cellpadding:15px; /* Set table cellpadding value */
+	border: 1px solid black; /* Set table border value */
+	background-color:#FFF2E6; /* Set Background Color */
+}
+
+td { /* Set column values */
+	border: 1px ridge gray; /* Set column border value */
+}
+
+span{ /* Set span value */
+	text-weight:bold; /* Set Letters to bold */
+	font-size:1.3em; /* Set Letter Size */
+	font-family: 'Jua', sans-serif; /* Set Letter Style */
+	background-color:#FFD9FA; /* Set Background Color */
+}
+
+#top { /* Set tag value to top */
+	background-color:#FAE0D4; /* Set Background Color */
+	color:#5F00FF; /* Set Letter Color */
+}
+
+#footer { /* Semantic footer - set bottom area */
+	font-style:italic; /* bottom's font style */
+	text-align:right; /* Right alignment */
+	color:darkred; /* bottom's font color */
+	padding:10px; /* bottom's padding */
+}
