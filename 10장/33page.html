@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>33page_201636417 심우석</title>
+</head>
+<body>
+	<p>Current date is: <span id="sp1"></span></p>
+	<input type="button" id="b1" value="Get date"/>
+	<input type="button" id="b2" value="Set title"/>	
+	<script type = "text/javascript">
+		function println(value)
+		{
+			if (value != undefined) document.write(value);
+			document.write("<br>");
+		}		
+		
+		var x = document.getElementById("b1");
+		x.onclick = function getDate() {
+			document.getElementById("sp1").innerHTML = Date();
+		}
+		
+		var y = document.getElementById("b2");
+		y.onclick = function setTitle() {
+			var t = document.getElementsByTagName("p");
+			t[0].innerHTML = Date();
+		}
+	</script>
+</body>
+</html>

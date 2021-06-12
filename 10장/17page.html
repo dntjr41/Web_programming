@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>17page_201636417 심우석</title>
+</head>
+<body>
+	<p id="intro">Hello World!</p>
+	<p>This example demonstrates <em>getElementById</em> method.</p>
+	<script type = "text/javascript">
+		function println(value)
+		{
+			if (value != undefined) document.write(value);
+			document.write("<br>");
+		}		
+		
+		x = document.getElementById("intro");
+		document.write("<p>The text from intro paragraph is: " +
+						x.innerHTML + "</p>");
+	</script>
+</body>
+</html>

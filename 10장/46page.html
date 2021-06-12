@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>46page_201636417 심우석</title>
+</head>
+<body onload="setDate()">
+	<script type = "text/javascript">
+		function println(value)
+		{
+			if (value != undefined) document.write(value);
+			document.write("<br>");
+		}		
+		
+		var myDate;
+		function setDate() {
+			var now = new Date();
+			document.getElementById("sp1").innerHTML = now;
+		}
+	</script>
+	<p>Current time: <span id="sp1"></span></p>
+	<button onclick="myDate = setInterval('setDate()', 500)">Start</button>
+	<button onclick="clearInterval(myDate)">Stop</button>
+</body>
+</html>

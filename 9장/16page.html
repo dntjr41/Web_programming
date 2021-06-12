@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>16page_201636417 심우석</title>
+</head>
+<body>
+	<script type = "text/javascript">
+		function println(value)
+		{
+			if (value != undefined) document.write(value);
+			document.write("<br>");
+		}	
+	
+		var obj = {
+			ob_num:201401234,
+			ob_str:"John Smith",
+			ob_print:function() {println(this.ob_str);}
+		};
+		
+		println(obj.ob_num);
+		obj.ob_print();
+	</script>
+</body>
+</html>

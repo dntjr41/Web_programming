@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>42page_201636417 심우석</title>
+</head>
+<body>
+	<p><a name="google" href="https://www.google.com">Google</a>
+	<a href="https://www.naver.com">Naver</a></p>
+	<script type = "text/javascript">
+		function println(value)
+		{
+			if (value != undefined) document.write(value);
+			document.write("<br>");
+		}		
+		
+		println("Number of anchors: " + document.anchors.length);
+		println("Number of link: " + document.links.length);
+		println("First anchor is: " + document.anchors[0].innerHTML);
+		println("Second link's html is: " + document.links[1]);		
+	</script>
+</body>
+</html>

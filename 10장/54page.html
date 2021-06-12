@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>54page_201636417 심우석</title>
+</head>
+<body>
+	<h1>Form Validation</h1>
+	<p>Enter the following information. When you press submit button,
+	the input data will be validated and then, if correct, sent to the server.
+	</p>
+	
+	<form name="form1" action="submit.php" onsubmit="return validate(this)">
+	<p><b>Your name: </b><input type="text" name="yourname"></p>
+	<p><b>Email: </b><input type="text" name="address"></p>	
+	<p><b>Phone </b><input type="text" name="phone"></p>
+	<p><input type="submit" name="Submit"></p>	
+	</form>
+	<script type = "text/javascript">
+		function println(value)
+		{
+			if (value != undefined) document.write(value);
+			document.write("<br>");
+		}	
+
+		function validate(form) {
+			if (form.yourname.value.length < 10) {
+				alert("Please enter your full name.");
+				return false;
+			}
+			
+			return true;
+		}
+	</script>
+</body>
+</html>

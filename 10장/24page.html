@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>24page_201636417 심우석</title>
+</head>
+<body>
+	<p id="p1">Hello World!</p>
+	<p id="p2">Hello World!</p>
+	<script type = "text/javascript">
+		function println(value)
+		{
+			if (value != undefined) document.write(value);
+			document.write("<br>");
+		}		
+		
+		var x1 = document.getElementById("p1");
+		var x2 = document.getElementById("p2");
+		
+		x1.style.color="red"; x1.style.textDecoration="underline";
+		x2.style.fontFamily="Helvetica"; x2.style.fontSize="xx-large";
+	</script>
+	<p>The style of paragraphs above was changed by JavaScript.</p>
+</body>
+</html>

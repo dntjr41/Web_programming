@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>51page_201636417 심우석</title>
+</head>
+<body>
+	<script type = "text/javascript">
+		function println(value)
+		{
+			if (value != undefined) document.write(value);
+			document.write("<br>");
+		}		
+		
+		var myWindow = null;
+		function win_open() {
+			if (myWindow == null)
+				myWindow = window.open("https://www.naver.com/");
+		}
+		
+		function win_close() {
+			if (myWindow != null) myWindow.close(myWindow);
+				myWindow = null;
+		}
+	</script>
+	<input type="button" value="Open new Window" onclick="win_open()"/>
+	<input type="button" value="Close" onclick="win_close()"/>	
+</body>
+</html>

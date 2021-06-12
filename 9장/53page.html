@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>53page_201636417 심우석</title>
+</head>
+<body>
+	<script type = "text/javascript">
+		function println(value)
+		{
+			if (value != undefined) document.write(value);
+			document.write("<br>");
+		}
+
+		println("Current url is: " + location.href + "<br/>");
+		
+		function jump() {
+			location.assign("https://www.naver.com/");
+			location.href="https://www.naver.com/";
+		}
+	</script>
+	<input type="button" value="Jump to naver" onclick="jump()"/>
+</body>
+</html>
